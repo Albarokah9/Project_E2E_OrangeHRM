@@ -23,3 +23,11 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+console.log('Loading custom commands...');
+
+Cypress.Commands.add('step', (name, fn) => {
+    console.log('Step command called:', name);
+    cy.allure().step(name, fn);
+});
+
+console.log('Custom commands loaded');

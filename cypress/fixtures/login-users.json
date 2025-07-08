@@ -1,0 +1,30 @@
+{
+  "validUser": {
+    "username": "Admin",
+    "password": "admin123",
+    "description": "Valid admin user for login testing"
+  },
+  "invalidUser": {
+    "username": "InvalidUser",
+    "password": "InvalidPass",
+    "description": "Invalid admin user for login testing"
+  },
+  "emptyUsername": {
+    "username": "",
+    "password": "admin123",
+    "description": "Empty username for login testing"
+  },
+  "emptyPassword": {
+    "username": "Admin",
+    "password": "",
+    "description": "Empty password for login testing"
+  },
+  "validUsername": {
+    "username": "Admin",
+    "description": "Valid admin  for forget password testing"
+  },
+  "invalidUsername" : {
+    "username": "Admin123",
+    "description": "Valid admin for forget password testing"
+  }
+}
