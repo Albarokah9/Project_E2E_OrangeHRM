@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2074","should show required message when password is empty","","Tue Jul 08 20:07:17 WIB 2025","passed","Tue Jul 08 20:07:20 WIB 2025","","Login Tests with Fixtures","",""
+"","3758","should show error message with invalid credentials","","Tue Jul 08 20:07:11 WIB 2025","passed","Tue Jul 08 20:07:15 WIB 2025","","Login Tests with Fixtures","",""
+"","7541","should login successfully with valid credentials","","Tue Jul 08 20:07:02 WIB 2025","passed","Tue Jul 08 20:07:10 WIB 2025","","Login Tests with Fixtures","",""
+"","2385","should show required message when username is empty","","Tue Jul 08 20:07:15 WIB 2025","passed","Tue Jul 08 20:07:17 WIB 2025","","Login Tests with Fixtures","",""
